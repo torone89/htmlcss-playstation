@@ -1,31 +1,19 @@
 /* Color */
+.bg-black {
+    background-color: black;
+}
 
-
-/* *************************/
+/* ************************/
 /* Generic */
 /* *************************/
 
-.container {
-    background-color: aqua;
-    min-height: 500px;
+
+
+.img-svg-sony {
+    height: 15px;
+    float: right;
 
 }
-
-.row {
-    border: 2px dashed yellow;
-}
-
-.row>[class^='col'] {
-    min-height: 100px;
-    background-color: blanchedalmond;
-    border: 1px gray solid;
-}
-
-.row .row>[class^='col'] {
-    background-color: orange;
-
-}
-
 
 /* *************************/
 /* Utilities */
@@ -40,6 +28,14 @@
 
 /* *************************/
 
+.sony-nav {
+    height: 24px;
+}
+
+#nav-bar {
+    background-color: blueviolet;
+    height: 50px;
+}
 
 /* *************************/
 /* Main */
@@ -51,7 +47,37 @@
 
 
 
-
 /* *************************/
 /* Footer */
 /* *************************/
+
+/* DA TOGLIERE */
+.container {
+    background-color: aqua;
+    min-height: 500px;
+
+}
+
+.container-fluid {
+    background-color: rgb(0, 255, 98);
+    min-height: 150px;
+}
+
+.row {
+    border: 2px dashed yellow;
+}
+
+.row>[class^='col'] {
+    min-height: 100px;
+    border: 1px gray solid;
+    background-color: aquamarine;
+}
+
+.row .row>[class^='col'] {
+    background-color: orange;
+
+}
+
+img {
+    height: 2000px;
+}

@@ -37,6 +37,13 @@
     height: 50px;
 }
 
+/* JUMBOTRON */
+
+#jumbotron {
+    margin-top: 200px;
+    background-image: url(../img/jumbo-bg.png);
+}
+
 /* *************************/
 /* Main */
 /* *************************/

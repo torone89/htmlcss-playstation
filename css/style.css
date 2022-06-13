@@ -123,6 +123,26 @@
 /* Footer */
 /* *************************/
 
+footer {
+    background-color: blue;
+    min-height: 500px;
+}
+
+/* FOOTER-TOP*/
+
+
+#footer-up {
+    background-color: tomato;
+    min-height: 330px;
+}
+
+/* FOOTER-BOTTOM */
+
+#footer-bottom {
+    background-color: royalblue;
+    height: 200px;
+}
+
 /* DA TOGLIERE */
 .container {
     background-color: aqua;

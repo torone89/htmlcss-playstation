@@ -79,11 +79,16 @@
 
 .catalogo-uscite {
     background-color: gray;
-    height: 400px;
-
+    min-height: 600px;
 }
 
 
+/* ESPLORA */
+
+#espora {
+    background-color: yellow;
+    height: 400px;
+}
 
 
 /* *************************/
@@ -118,5 +123,5 @@
 }
 
 img {
-    height: 100px;
+    height: 150px;
 }

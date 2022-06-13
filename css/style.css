@@ -42,7 +42,16 @@
 #jumbotron {
     margin-top: 200px;
     background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
 }
+
+/* SWAP-JUMBOTRON **/
+
+#swap-jumbotron {
+    background-color: brown;
+    max-height: 400px;
+}
+
 
 /* *************************/
 /* Main */
@@ -61,7 +70,7 @@
 /* DA TOGLIERE */
 .container {
     background-color: aqua;
-    min-height: 500px;
+    min-height: 100px;
 
 }
 

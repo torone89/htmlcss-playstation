@@ -58,7 +58,9 @@
 /* *************************/
 
 
-
+#console {
+    background-color: yellow;
+}
 
 
 
@@ -95,5 +97,5 @@
 }
 
 img {
-    height: 2000px;
+    height: 100px;
 }

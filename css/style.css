@@ -3,6 +3,10 @@
     background-color: black;
 }
 
+.bg-white {
+    background-color: white;
+}
+
 /* ************************/
 /* Generic */
 /* *************************/
@@ -31,6 +35,8 @@
     margin-right: 20px;
 }
 
+
+
 /* *************************/
 /* Header */
 
@@ -41,7 +47,6 @@
 }
 
 #nav-bar {
-    background-color: blueviolet;
     height: 52px;
 }
 
@@ -56,16 +61,17 @@
 
 #jumbotron {
     margin-top: 77px;
-    min-height: 400px;
+    width: 100vw;
+    height: 675px;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
+    background-position: center;
 }
 
 /* SWAP-JUMBOTRON **/
 
 #swap-jumbotron {
-    background-color: brown;
-    max-height: 400px;
+    max-height: 100%
 }
 
 
@@ -187,5 +193,5 @@ footer {
 } */
 
 img {
-    height: 150px;
+    width: 100%;
 }

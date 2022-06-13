@@ -1,0 +1,57 @@
+/* Color */
+
+
+/* *************************/
+/* Generic */
+/* *************************/
+
+.container {
+    background-color: aqua;
+    min-height: 500px;
+
+}
+
+.row {
+    border: 2px dashed yellow;
+}
+
+.row>[class^='col'] {
+    min-height: 100px;
+    background-color: blanchedalmond;
+    border: 1px gray solid;
+}
+
+.row .row>[class^='col'] {
+    background-color: orange;
+
+}
+
+
+/* *************************/
+/* Utilities */
+/* *************************/
+
+.h-100 {
+    height: 100%;
+}
+
+/* *************************/
+/* Header */
+
+/* *************************/
+
+
+/* *************************/
+/* Main */
+/* *************************/
+
+
+
+
+
+
+
+
+/* *************************/
+/* Footer */
+/* *************************/

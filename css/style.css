@@ -41,6 +41,7 @@
 
 #jumbotron {
     margin-top: 200px;
+    min-height: 400px;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
 }

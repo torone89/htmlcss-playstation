@@ -112,6 +112,13 @@
     min-height: 300px;
 }
 
+
+/* SOCIAL */
+#social {
+    min-height: 200px;
+    background-color: lightgreen;
+}
+
 /* *************************/
 /* Footer */
 /* *************************/

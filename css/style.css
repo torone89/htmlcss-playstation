@@ -7,11 +7,15 @@
 /* Generic */
 /* *************************/
 
-
+.btn {
+    border-radius: 20px;
+}
 
 .img-svg-sony {
     height: 15px;
-    float: right;
+    padding: 0;
+    margin: 0;
+
 
 }
 
@@ -23,24 +27,35 @@
     height: 100%;
 }
 
+.mr-10 {
+    margin-right: 20px;
+}
+
 /* *************************/
 /* Header */
 
 /* *************************/
 
 .sony-nav {
-    height: 24px;
+    height: 25px;
 }
 
 #nav-bar {
     background-color: blueviolet;
+    height: 52px;
+}
+
+
+.play-svg {
     height: 50px;
+    width: 50px;
+
 }
 
 /* JUMBOTRON */
 
 #jumbotron {
-    margin-top: 200px;
+    margin-top: 77px;
     min-height: 400px;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
@@ -145,7 +160,7 @@ footer {
 }
 
 /* DA TOGLIERE */
-.container {
+/* .container {
     background-color: aqua;
     min-height: 100px;
 
@@ -169,7 +184,7 @@ footer {
 .row .row>[class^='col'] {
     background-color: orange;
 
-}
+} */
 
 img {
     height: 150px;

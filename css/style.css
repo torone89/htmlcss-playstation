@@ -58,8 +58,28 @@
 /* *************************/
 
 
+/* CONSOLE */
 #console {
     background-color: yellow;
+}
+
+/* NUOVE USCITE */
+/* takes-two */
+
+
+/* Catalogo-uscite */
+
+.takes-two {
+
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    height: 400px;
+}
+
+
+.catalogo-uscite {
+    background-color: gray;
+
 }
 
 

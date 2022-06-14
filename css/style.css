@@ -108,14 +108,19 @@
     background-color: #1f1f1f;
     min-height: 600px;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 
 /* ESPLORA */
 
-#espora {
-    background-color: yellow;
-    height: 400px;
+#esplora {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.card {
+    border: transparent;
 }
 
 /* PLAYSTATION-PLUS */

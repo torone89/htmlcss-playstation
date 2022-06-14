@@ -198,3 +198,18 @@
 img {
     width: 100%;
 }
+
+/* ********************* */
+/* EFFECTS */
+**********************
+
+/*Swap-jumbotron*/
+#swap-jumbotron .col-6:hover img {
+    transform: translatey(-10px) scale(1.0);
+    cursor: pointer;
+}
+
+#swap-jumbotron .col-6 {
+    transition: transform 0.3;
+
+}

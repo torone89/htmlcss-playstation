@@ -201,7 +201,7 @@ img {
 
 /* ********************* */
 /* EFFECTS */
-**********************
+/* ********************** */
 
 /*Swap-jumbotron*/
 #swap-jumbotron .col-6:hover img {
@@ -212,4 +212,42 @@ img {
 #swap-jumbotron .col-6 {
     transition: transform 0.3;
 
+}
+
+/*Console*/
+
+#console .col-4:hover img {
+
+    cursor: pointer;
+
+}
+
+.active-1 {
+    opacity: 0.5;
+}
+
+#console .col-4:hover .active-1 {
+    opacity: 1;
+    border-bottom: 3px solid blue;
+}
+
+
+
+
+.active-img {
+    border-bottom: 3px solid blue;
+}
+
+
+/* BTN -BOX SHADOW */
+
+.btn {
+    transition: 0.3sec
+}
+
+
+.btn:hover {
+    outline: none;
+    box-shadow: 0 0 0 3px #363636;
+    border-radius: 3rem;
 }

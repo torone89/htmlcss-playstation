@@ -105,8 +105,9 @@
 
 
 .catalogo-uscite {
-    background-color: gray;
+    background-color: #1f1f1f;
     min-height: 600px;
+    padding-top: 30px;
 }
 
 

@@ -140,16 +140,20 @@
 /* PLAYSTATION-NOW */
 
 #playstation-now {
-    background-color: blue;
-    min-height: 300px;
+    background-color: #161b3b;
+
 }
 
 
 /* SOCIAL */
 #social {
-    min-height: 200px;
-    background-color: lightgreen;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
+
+/* #social img {
+    width: 50%;
+} */
 
 /* *************************/
 /* Footer */

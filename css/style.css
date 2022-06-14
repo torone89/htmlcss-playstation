@@ -165,35 +165,10 @@
 /* FOOTER-BOTTOM */
 
 #footer-bottom {
-    background-color: #00429b
+    background-color: #00429b;
+    padding-bottom: 30px;
 }
 
-/* DA TOGLIERE */
-/* .container {
-    background-color: aqua;
-    min-height: 100px;
-
-}
-
-.container-fluid {
-    background-color: rgb(0, 255, 98);
-    min-height: 150px;
-}
-
-.row {
-    border: 2px dashed yellow;
-}
-
-.row>[class^='col'] {
-    min-height: 100px;
-    border: 1px gray solid;
-    background-color: aquamarine;
-}
-
-.row .row>[class^='col'] {
-    background-color: orange;
-
-} */
 
 img {
     width: 100%;
@@ -250,4 +225,10 @@ img {
     outline: none;
     box-shadow: 0 0 0 3px #363636;
     border-radius: 3rem;
+}
+
+
+.area-menu {
+    height: 200px;
+    width: 200px;
 }

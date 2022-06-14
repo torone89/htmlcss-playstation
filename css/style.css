@@ -15,13 +15,6 @@
     border-radius: 20px;
 }
 
-.img-svg-sony {
-    height: 15px;
-    padding: 0;
-    margin: 0;
-
-
-}
 
 /* *************************/
 /* Utilities */
@@ -61,7 +54,6 @@
 
 #jumbotron {
     margin-top: 77px;
-    width: 100vw;
     height: 100vh;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
@@ -92,11 +84,11 @@
 
 /* Catalogo-uscite */
 
-.takes-two {
+.hero-takes-two {
 
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
-    width: 100vw;
+
     height: 100vh;
     background-position: center;
 }
@@ -159,24 +151,21 @@
 /* Footer */
 /* *************************/
 
-footer {
-    background-color: blue;
-    min-height: 500px;
-}
+
 
 /* FOOTER-TOP*/
 
 
 #footer-up {
-    background-color: tomato;
-    min-height: 330px;
+    background-color: #00429b;
+    padding-top: 40px;
 }
+
 
 /* FOOTER-BOTTOM */
 
 #footer-bottom {
-    background-color: royalblue;
-    height: 200px;
+    background-color: #00429b
 }
 
 /* DA TOGLIERE */

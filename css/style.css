@@ -58,10 +58,13 @@
 
 #jumbotron {
     margin-top: 77px;
-    height: 100vh;
+
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
-    background-position: center;
+
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-top: 250px;
 }
 
 /* SWAP-JUMBOTRON **/
@@ -93,8 +96,9 @@
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
 
-    height: 100vh;
-    background-position: center;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-top: 250px;
 }
 
 

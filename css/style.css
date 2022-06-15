@@ -95,9 +95,7 @@
 
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
-
-    background-repeat: no-repeat;
-    background-position: top center;
+    background-position: center;
 
 }
 
@@ -106,7 +104,7 @@
 
 .catalogo-uscite {
     background-color: #1f1f1f;
-    min-height: 600px;
+
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -225,7 +223,7 @@ img {
 /* BTN -BOX SHADOW */
 
 .btn {
-    transition: 0.3sec
+    transition: 0.3s
 }
 
 

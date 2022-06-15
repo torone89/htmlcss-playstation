@@ -29,6 +29,10 @@
 }
 
 
+.wh-100 {
+    width: 100vw;
+}
+
 
 /* *************************/
 /* Header */
@@ -228,7 +232,44 @@ img {
 }
 
 
-.area-menu {
-    height: 200px;
-    width: 200px;
+
+/* FIXED NAVBAR */
+.navbar {
+    padding: 0;
+}
+
+button {
+    background-color: white;
+    border: white;
+}
+
+.navbar-toggler {
+    border: white;
+    padding: 0;
+}
+
+
+.collapse .collapse-active:hover {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    box-shadow: 2px 2px #888888;
+
+}
+
+
+button :hover .i-active {
+    display: none;
+}
+
+.i-no-active {
+    display: none;
+}
+
+
+button :active .i-no-active {
+    display: inline;
+}
+
+button :hover .i-no-active {
+    display: inline;
 }
